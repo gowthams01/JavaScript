@@ -1,0 +1,14 @@
+var Name=prompt("Enter Your name");
+var age=prompt('Enter Your age');
+var gender=prompt('Enter Your Gender');
+var Qualification=prompt('Enter Your Qualification');
+var paper1=parseInt(prompt('Enter Your Mark'));
+var paper2=parseInt(prompt('Enter Your Mark'));
+var paper3=parseInt(prompt('Enter Your Mark'));
+var paper4=parseInt(prompt('Enter Your Mark'));
+var paper5=parseInt(prompt('Enter Your Mark'));
+var average=paper1+paper2+paper3+paper4+paper4+paper5;
+var totalAverage=average/5;
+// document.getElementById('marks').innerHTML='<h1>Average</h1>'+average;
+document.write('Enter Your name:'+Name+'<br/>Enter Your age:'+age+'<br/>Enter Your Gender:'+gender+'<br/>Enter Your Qualification:'+Qualification+'<br/>Enter Your Mark:'+paper1+'<br/>Enter Your Mark:'+paper2+'<br/>Enter Your Mark:'+paper3+'<br/>Enter Your Mark:'+paper4+'<br/>Enter Your Mark:'+paper5+'<br/>Avera mark:'+average);
+// document.getElementById('marks').innerHTML='<h1>Average</h1>'+average;
